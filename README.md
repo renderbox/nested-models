@@ -1,6 +1,6 @@
 # nested-models
 
-Nested models are serializeable objects that can be converted to formats like JSON and YAML while providing functionality such as serialization/deserialization, cleaning, validation and  defaults values.
+Nested models are serializeable objects that can be converted to various formats like JSON and YAML while providing functionality such as serialization/deserialization, cleaning, validation and  defaults values.
 
 It also utilizes a Schema format that can restrict the fields that are serialized by the object.
 

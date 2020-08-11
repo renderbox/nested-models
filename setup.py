@@ -8,8 +8,8 @@ with open(path.join(file_path, 'README.md')) as f:
 
 package_metadata = {
     'name': 'nested-models',
-    'version': '0.1.0',
-    'description': 'Simple Model objects that can be validated and serialized/deserialized into other formats.',
+    'version': '0.1.1',
+    'description': 'Simple Model objects that can be validated and serialized/deserialized into various formats.',
     'long_description': long_description,
     'url': 'https://github.com/renderbox/django-permafrost/',
     'author': 'Grant Viklund',
@@ -22,7 +22,7 @@ package_metadata = {
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    'keywords': ['serialization', 'json'],
+    'keywords': ['serialization', 'json', 'yaml'],
 }
 
 setup(
