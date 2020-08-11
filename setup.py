@@ -30,6 +30,9 @@ setup(
     python_requires=">=3.6",
     install_requires=[],
     extras_require={
+        'test': [
+            'pytest',
+        ],
         'build': [
             'setuptools',
             'wheel',
