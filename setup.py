@@ -26,10 +26,7 @@ package_metadata = {
 }
 
 setup(
-    # ,
-    # # packages=find_packages(),
-    # # package_data={'nestedmodels': []},
-    # include_package_data=True,
+    packages=find_packages(),
     python_requires=">=3.6",
     install_requires=[],
     extras_require={
@@ -41,7 +38,6 @@ setup(
         'docs': [
             'coverage',
             'Sphinx',
-            'sphinx-rtd-theme',
         ],
     },
     **package_metadata

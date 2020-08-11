@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nested Models'
-copyright = '2020, Grant Viklund'
+copyright = '2020, Whitemoon Labs'
 author = 'Grant Viklund'
 
 # The full version, including alpha/beta/rc tags
